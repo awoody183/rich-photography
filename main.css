@@ -1,4 +1,4 @@
-div {
+* {
     outline: 1px solid green; 
 }
 
@@ -6,6 +6,8 @@ div {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(/images/rich_logo.jpg);
+    height: 200px;
 }
 
 .center {
@@ -14,3 +16,23 @@ div {
     margin-right: auto;
     width: 50%;
 }
+
+/* Shared Icon Class */
+span.icon a:link,
+span.icon a:visited {
+    display: block;
+    text-indent: -9999px;
+    background-image: url(images/flat-social-media-icons-enfuzed.png);
+    background-repeat: no-repeat;
+}
+
+/* Facebook Icon */
+span.facebook a:link,
+span.facebook a:visited {
+	width: 45px;
+	height: 50px;
+	background-position: -40px -485px;
+}
+
+span.facebook a:hover {background-position: -40px -160px}
+
